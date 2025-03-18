@@ -1,0 +1,47 @@
+.form-container {
+    width: 300px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.error {
+    color: red;
+    font-size: smaller;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+input {
+    background-color: hsl(215, 32%, 27%);
+    width: calc(100% - 24px);
+    margin-top: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: hsl(178, 100%, 50%);
+    padding: 10px;
+    border-radius: 30px;
+    color: hsl(215, 100%, 49%);
+    border-width: 0;
+}
